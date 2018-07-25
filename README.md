@@ -14,14 +14,16 @@ Summary: The canonical way to perform meta-analysis involves using effect sizes.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-metap-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-metap-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-metap-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-metap-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-metap-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-metap-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-metap-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-metap-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-metap-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-metap-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-metap-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-metap-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-metap/badges/version.svg)](https://anaconda.org/conda-forge/r-metap)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-metap/badges/downloads.svg)](https://anaconda.org/conda-forge/r-metap)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--metap-green.svg)](https://anaconda.org/conda-forge/r-metap) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-metap.svg)](https://anaconda.org/conda-forge/r-metap) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-metap.svg)](https://anaconda.org/conda-forge/r-metap) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-metap.svg)](https://anaconda.org/conda-forge/r-metap) |
 
 Installing r-metap
 ==================
