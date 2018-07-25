@@ -1,4 +1,4 @@
-{% set version = '0.8' %}
+{% set version = "1.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/metap_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/metap/metap_{{ version }}.tar.gz
-  sha256: 9096cff45fd36fd5de37c7f9b512e2f7faa19fb790478f34f08d2b1ae74fde1a
+  sha256: 50a014cd52c30d55cf219cc37864323c4d1b44c3c26ff948b10e4dff1dde3fa3
 
 build:
   number: 0
