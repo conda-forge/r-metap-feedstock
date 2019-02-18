@@ -1,4 +1,4 @@
-{% set version = '1.0' %}
+{% set version = "1.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,12 +12,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/metap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/metap/metap_{{ version }}.tar.gz
-  sha256: 50a014cd52c30d55cf219cc37864323c4d1b44c3c26ff948b10e4dff1dde3fa3
+  sha256: 20120428672d39dc15829c7e66850fc4350a34df290d48cef0b1cc78d13f7b82
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
