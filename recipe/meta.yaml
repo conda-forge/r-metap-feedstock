@@ -29,10 +29,14 @@ requirements:
     - r-base
     - r-rdpack
     - r-lattice
+    - r-tfisher
+    - r-mutoss
   run:
     - r-base
     - r-rdpack
     - r-lattice
+    - r-tfisher
+    - r-mutoss
 
 test:
   commands:
