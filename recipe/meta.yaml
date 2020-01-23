@@ -48,12 +48,9 @@ about:
     Tippett, and Wilkinson; a number of data-sets to replicate published results; and
     a routine for graphical display.
   license_family: GPL2
+  license_file:
+    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
