@@ -3,7 +3,7 @@ About r-metap
 
 Home: http://www.dewey.myzen.co.uk/meta/meta.html
 
-Package license: GPL-2
+Package license: GPL-2-only
 
 Feedstock license: BSD 3-Clause
 
