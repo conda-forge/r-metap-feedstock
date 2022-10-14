@@ -27,12 +27,18 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
-    - r-rdpack
     - r-lattice
+    - r-mathjaxr >=0.8_3
+    - r-mutoss
+    - r-qqconf
+    - r-rdpack >=0.7
   run:
     - r-base
-    - r-rdpack
     - r-lattice
+    - r-mathjaxr >=0.8_3
+    - r-mutoss
+    - r-qqconf
+    - r-rdpack >=0.7
 
 test:
   commands:
