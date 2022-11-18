@@ -1,4 +1,4 @@
-{% set version = "1.1" %}
+{% set version = "1.8" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,12 +12,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/metap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/metap/metap_{{ version }}.tar.gz
-  sha256: 20120428672d39dc15829c7e66850fc4350a34df290d48cef0b1cc78d13f7b82
+  sha256: ee9501a8de8a4c47af1632e6053e42ef53fc4b8bdf0f2759edc4d3eefaf5552b
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 3
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -27,12 +27,18 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
-    - r-rdpack
     - r-lattice
+    - r-mathjaxr >=0.8_3
+    - r-mutoss
+    - r-qqconf
+    - r-rdpack >=0.7
   run:
     - r-base
-    - r-rdpack
     - r-lattice
+    - r-mathjaxr >=0.8_3
+    - r-mutoss
+    - r-qqconf
+    - r-rdpack >=0.7
 
 test:
   commands:
