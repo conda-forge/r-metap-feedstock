@@ -1,11 +1,11 @@
-About r-metap
-=============
+About r-metap-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-metap-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.dewey.myzen.co.uk/meta/meta.html
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-metap-feedstock/blob/main/LICENSE.txt)
 
 Summary: The canonical way to perform meta-analysis involves using effect sizes. When they are not available this package provides a number of methods for meta-analysis of significance values including the methods of Edgington, Fisher, Lancaster, Stouffer, Tippett, and Wilkinson; a number of data-sets to replicate published results; and a routine for graphical display.
 
