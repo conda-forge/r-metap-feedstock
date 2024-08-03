@@ -1,4 +1,4 @@
-{% set version = "1.1" %}
+{% set version = "1.11" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -11,11 +11,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/metap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/metap/metap_{{ version }}.tar.gz
-  sha256: 20120428672d39dc15829c7e66850fc4350a34df290d48cef0b1cc78d13f7b82
+  sha256: 34e8c9fc3ccaae23f57389001987de02339416f843084869f92ff635052093b7
 
 build:
   noarch: generic
-  number: 5
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
